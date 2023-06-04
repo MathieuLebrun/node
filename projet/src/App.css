@@ -1,0 +1,317 @@
+#body {
+  background: rgb(255,255,255);
+  background: linear-gradient(50deg, rgba(254, 255, 88,.7), rgba(255,0,0,0) 30%),
+              linear-gradient(180deg, rgba(255, 255, 255,1), rgba(0,255,0,0)25%),
+              linear-gradient(100deg, rgba(255, 255, 255,1), rgba(0,255,0,0) 100%),
+              linear-gradient(90deg, rgba(255, 255, 255,1), rgba(0,255,0,0) 50%),
+              linear-gradient(200deg, rgba(221, 69, 242,.5), rgba(255,0,255,0) 80%),
+              linear-gradient(210deg, rgba(221, 69, 242,1), rgba(255,0,255,0) 80%),
+              linear-gradient(220deg, rgba(221, 69, 242,.7), rgba(255,0,255,0) 50%),
+              linear-gradient(230deg, rgba(254, 255, 88,.7), rgba(255,0,0,0) 50%),
+              linear-gradient(230deg, rgba(254, 255, 88,1), rgba(255,0,0,0) 100%),
+              linear-gradient(240deg, rgba(254, 255, 88,.7), rgba(255,0,0,0) 20%),
+              linear-gradient(0deg, rgba(255, 255, 255,1), rgba(0,255,0,0) 200%),
+              linear-gradient(300deg, rgba(255, 255, 255,1), rgba(0,255,0,0) 200%),
+              linear-gradient(300deg, rgba(255, 255, 255,1), rgba(0,255,0,0) 200%);
+
+}
+/* ---------- 1 ---------- */
+/* box gauche */
+.active {
+  color: #dd45f2 !important;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out!important;
+}
+
+li a{
+  color: #ec99f8 !important;
+  cursor: pointer;
+}
+
+nav {
+  background: none !important;
+}
+
+h1 {
+  color: #dd45f2 !important;
+  font-size: 60px !important;
+}
+
+#text1{
+  color: black !important;
+  font-size: 17px !important;
+
+}
+
+#gaucheforme1{
+  height: 100px;
+  width: 260px;
+  background-color:rgba(255, 255, 255, 0.8);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 40px;
+  border-radius: 25px;
+}
+
+#gaucheforme2{
+  height: 100px;
+  width: 260px;
+  background-color:rgba(255, 255, 255, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 40px;
+  border-radius: 25px;
+}
+
+/* box gauche */
+#container2{
+  position: relative;
+}
+
+#base1{
+  height: 500px;
+  width: 600px;
+  background: rgba(222, 69, 242, 0.45);
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255 ,255, .3);
+  border-top: 1px solid rgba(255, 255 ,255, .3);
+
+  /* effet à ajouter */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+}
+
+.ligne1{
+  height: 60px;
+  width: 300px;
+  background: transparent;
+  border: none;
+  background: rgba(255, 255, 255, 0.55);
+  border-left: 1px solid rgba(255, 255 ,255, .3);
+  border-top: 1px solid rgba(255, 255 ,255, .3);
+  border-radius: 30px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  -moz-backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+#base2{
+  top: 40px;
+  left: 80px;
+
+  height: 500px;
+  width: 600px;
+  background: rgba(255, 255, 255, 0.45);
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255 ,255, .3);
+  border-top: 1px solid rgba(255, 255 ,255, .3);
+
+  /* effet à ajouter */
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  -moz-backdrop-filter: blur(5px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+
+}
+
+.cercle{
+  height: 40px;
+  width: 40px;
+  background: transparent;
+  border: none;
+  background: rgba(255, 255, 255, 0.50);
+  border-left: 1px solid rgba(255, 255 ,255, .3);
+  border-top: 1px solid rgba(255, 255 ,255, .3);
+  border-radius: 30px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  -moz-backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.ligne2{
+  height: 220px;
+  width: 300px;
+  background: transparent;
+  border: none;
+  background: rgba(255, 255, 255, 0.50);
+  border-left: 1px solid rgba(255, 255 ,255, .3);
+  border-top: 1px solid rgba(255, 255 ,255, .3);
+  border-radius: 30px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  -moz-backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+}
+
+.ligne3{
+  height: 60px;
+  width: 555px;
+  background: transparent;
+  border: none;
+  background: rgba(255, 255, 255, .5);
+  border-left: 1px solid rgba(255, 255 ,255, .3);
+  border-top: 1px solid rgba(255, 255 ,255, .3);
+  border-radius: 30px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  -moz-backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+/* ---------- 2 ---------- */
+
+.carte{
+  height: 570px;
+  width: 450px;
+  background: rgba(255, 255, 255, 0.60);
+  border-radius: 25px;
+  border-left: 1px solid rgba(255, 255 ,255, 1);
+  border-top: 1px solid rgba(255, 255 ,255, 1);
+
+  /* effet à ajouter */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+}
+
+.carteimg{
+  height: 250px;
+  
+  background: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  box-shadow: 10px 10px 40px -6px rgba(0, 0, 0, .2);
+}
+
+.cartebtn{
+  height: 90px;
+  
+  background: rgba(255, 255, 255, 1);
+  border-radius: 25px;
+  
+
+  /* effet à ajouter */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  box-shadow: 10px 10px 40px -6px rgba(0, 0, 0, .2);
+
+  color: black !important;
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 1s ease-in-out!important;
+}
+
+.cartebtn:hover{
+  background: transparent linear-gradient(115deg, #DD2DEF 0%, var(--unnamed-color-ffffff) 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(115deg, #DD2DEF 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+  transition: all s ease-in-out!important;
+}
+
+.carte h2{
+  color: #dd45f2 !important;
+  margin: 7px;
+  margin-top: 25px;
+}
+
+.carte p{
+  margin: 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black !important;
+  font-size: 18px;
+}
+
+/* ---------- 3 ---------- */
+
+#titre2{
+  color: black !important;
+  font-size: 50px !important;
+  margin: 40px;
+}
+
+/* ---------- 4 ---------- */
+
+#menubtn{
+  height: 110px;
+  width: 500px;
+  
+  background: rgba(255, 255, 255, .60);
+  border-radius: 25px;
+  border-left: 2px solid rgba(255, 255 ,255, 1);
+  border-top: 2px solid rgba(255, 255 ,255, 1);
+
+  /* effet à ajouter */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+
+  color: #ec99f8 !important;
+  font-size: 23px;
+  
+}
+
+.menubtn2{
+  cursor: pointer;
+}
+
+.active2 {
+  width: 120px;
+  height: 65px;
+
+  color: #dd45f2 !important;
+  transition: all 0.5s ease-in-out;
+  
+  background: white;
+  border-radius: 18px;
+  
+  box-shadow: 10px 10px 40px -6px rgba(0, 0, 0, .2);
+
+}
+
+
+/* ---------- 5 ---------- */
+
+#lastblock{
+  width: 1400px;
+  height: 700px;
+  
+  background: rgba(255, 255, 255, .7);
+  border-radius: 50px;
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+  border-left: 2px solid rgba(255, 255 ,255, 1);
+  border-top: 2px solid rgba(255, 255 ,255, 1);
+
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+#titre3{
+  color: #dd45f2 !important;
+  font-size: 40px !important;
+}
+
+#imagecarre{
+  width: 550px;
+  height: 550px;
+  
+  background: rgb(223, 221, 140);
+  border-radius: 50px;
+  box-shadow: 5px 5px 40px -6px rgba(0, 0, 0, .15);
+
+}
+
+.blocktext{
+  transition: all 0.3s ease-out !important;
+  transition-duration: 4s!important;
+}
