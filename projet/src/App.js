@@ -112,8 +112,8 @@ function App() {
                 </p>
                 <div className='cartebtn uk-width-1-1 uk-flex uk-flex-middle uk-flex-center'>
                   En savoir plus…
-                  <div class="uk-position-relative">
-                    <div class="uk-position-absolute uk-position-center" style={{marginLeft: "30px"}}>
+                  <div className="uk-position-relative">
+                    <div className="uk-position-absolute uk-position-center" style={{marginLeft: "30px"}}>
                       1
                     </div>
                   </div>
@@ -135,8 +135,8 @@ function App() {
                 </p>
                 <div className='cartebtn uk-width-1-1 uk-flex uk-flex-middle uk-flex-center'>
                   En savoir plus…
-                  <div class="uk-position-relative">
-                    <div class="uk-position-absolute uk-position-center" style={{marginLeft: "30px"}}>
+                  <div className="uk-position-relative">
+                    <div className="uk-position-absolute uk-position-center" style={{marginLeft: "30px"}}>
                       1
                     </div>
                   </div>
@@ -158,8 +158,8 @@ function App() {
                 </p>
                 <div className='cartebtn uk-width-1-1 uk-flex uk-flex-middle uk-flex-center'>
                   En savoir plus…
-                  <div class="uk-position-relative">
-                    <div class="uk-position-absolute uk-position-center" style={{marginLeft: "70px"}}>
+                  <div className="uk-position-relative">
+                    <div className="uk-position-absolute uk-position-center" style={{marginLeft: "70px"}}>
                       1
                     </div>
                   </div>
