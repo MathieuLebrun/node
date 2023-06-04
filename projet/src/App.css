@@ -19,7 +19,6 @@
 /* box gauche */
 .active {
   color: #dd45f2 !important;
-  font-weight: 600;
   transition: all 0.3s ease-in-out!important;
 }
 
