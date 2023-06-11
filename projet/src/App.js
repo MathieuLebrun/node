@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
 import logo from './logo_site.png';
+import manette1 from './ILLU_MANETTE_1.png';
+import manette2 from './ILLU_MANETTE_2.png';
+import footer from './LOGIN_footer.png';
+import world from './low-poly_world.png';
+import fleche from './fleche.png';
 import './App.css';
 import 'uikit/dist/css/uikit.css';
 
@@ -45,25 +50,28 @@ function App() {
                 <div>
                   <h1>Z'heros</h1>
                   <p id="text1">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br></br>
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br></br>
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea<br></br>
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate<br></br>
-                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat<br></br>
-                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est<br></br>
-                    laborum
+                  Nous sommes les z’héros de vos enfants, ou plutôt leur héros.<br></br>
+                  Nous avons créés Z’HEROS, une application mobile de soutien scolaire<br></br>
+                  pour les collégiens. Notre objectif ? Apprendre en s’amusant !<br></br>
+                  La génération Alpha a évolué avec le monde digital, il est donc logique de<br></br>
+                  proposer une solution d’apprentissage qui est adapté à leur habitude de<br></br>
+                  vie.
                   </p>
                 </div>
               </div>
-              <div className="uk-flex uk-flex-middle">
-                <div id="gaucheforme1" className="uk-width-1-3">
-
+              <div className="uk-flex  uk-flex-middle">
+                <div id="gaucheforme1" className="uk-width-1-3 uk-flex uk-flex-middle uk-flex-center">
+                    <div style={{fontSize : "25px"}}>
+                      Téléchargement
+                    </div>
                 </div>
                 <div className="uk-width-1-3" style={{width : "10%"}}>
 
                 </div>
-                <div id="gaucheforme2" className="uk-width-1-3">
-
+                <div id="gaucheforme2" className="uk-width-1-3 uk-flex uk-flex-middle uk-flex-center">
+                    <div style={{fontSize : "25px"}}>
+                      App Mobile
+                    </div>
                 </div>
               </div>
             </div>  
@@ -101,20 +109,20 @@ function App() {
           <div className="uk-width-1-3 uk-flex uk-flex-middle uk-flex-center">
             <div className='carte'>
               <div style={{padding: "35px"}}>
-                <div className='carteimg uk-width-1-1'>
-
+                <div className='carteimg uk-width-1-1 uk-flex uk-flex-middle uk-flex-center'>
+                  <img src={manette1} width={300} />
                 </div>
                 <h2>
-                  Titre 1 
+                  Ludique 
                 </h2>
                 <p >
-                  Lorem ipsum dolor sit amet, consectetur<br></br> adipiscing elit
+                  L’apprentissage ludique est un moyen<br></br>
+                  amusant et efficace d’acquérir de nouv…
                 </p>
                 <div className='cartebtn uk-width-1-1 uk-flex uk-flex-middle uk-flex-center'>
                   En savoir plus…
                   <div className="uk-position-relative">
                     <div className="uk-position-absolute uk-position-center" style={{marginLeft: "30px"}}>
-                      1
                     </div>
                   </div>
                 </div>
@@ -124,20 +132,20 @@ function App() {
           <div className="uk-width-1-3 uk-flex uk-flex-middle uk-flex-center">
             <div className='carte'>
               <div style={{padding: "35px"}}>
-                <div className='carteimg uk-width-1-1'>
-
+                <div className='carteimg uk-width-1-1 uk-flex uk-flex-middle uk-flex-center'>
+                  <img src={manette2} width={300} />
                 </div>
                 <h2>
-                  Titre 2 
+                  Éducatif
                 </h2>
                 <p >
-                  Lorem ipsum dolor sit amet, consectetur<br></br> adipiscing elit
+                  Nous aimons aider les enfants en leurs<br></br>
+                  permettant d’acquérir de nouvelles com…
                 </p>
                 <div className='cartebtn uk-width-1-1 uk-flex uk-flex-middle uk-flex-center'>
                   En savoir plus…
                   <div className="uk-position-relative">
                     <div className="uk-position-absolute uk-position-center" style={{marginLeft: "30px"}}>
-                      1
                     </div>
                   </div>
                 </div>
@@ -147,20 +155,20 @@ function App() {
           <div className="uk-width-1-3 uk-flex uk-flex-middle uk-flex-center">
             <div className='carte'>
               <div style={{padding: "35px"}}>
-                <div className='carteimg uk-width-1-1'>
-
+                <div className='carteimg uk-width-1-1 uk-flex uk-flex-middle uk-flex-center'>
+                  <img src={manette1} width={300} />
                 </div>
                 <h2>
-                  Titre 3 
+                  Interactif
                 </h2>
                 <p >
-                  Lorem ipsum dolor sit amet, consectetur<br></br> adipiscing elit
+                  C’est une expérience ludique qui permet<br></br>
+                  aux joueurs d’interagir activement avec…
                 </p>
                 <div className='cartebtn uk-width-1-1 uk-flex uk-flex-middle uk-flex-center'>
                   En savoir plus…
                   <div className="uk-position-relative">
-                    <div className="uk-position-absolute uk-position-center" style={{marginLeft: "70px"}}>
-                      1
+                    <div className="uk-position-absolute uk-position-center" style={{marginLeft: "50px"}}>
                     </div>
                   </div>
                 </div>
@@ -178,13 +186,13 @@ function App() {
         <div className="uk-flex uk-flex-middle uk-flex-center">
             <div id='menubtn' className="uk-flex">
               <div className="uk-width-1-3 uk-flex uk-flex-middle uk-flex-center">
-                <div id="menubtntext" style={{cursor: "pointer"}} className={`uk-flex uk-flex-middle uk-flex-center menuBtn2 ${activeMenu2 === 'menubtn1' ? 'active2' : ''}`}onClick={() => handleClick2('menubtn1')}>Lorem</div>
+                <div id="menubtntext" style={{cursor: "pointer"}} className={`uk-flex uk-flex-middle uk-flex-center menuBtn2 ${activeMenu2 === 'menubtn1' ? 'active2' : ''}`}onClick={() => handleClick2('menubtn1')}>Ruben</div>
               </div>
               <div className="uk-width-1-3 uk-flex uk-flex-middle uk-flex-center">
-                <div id="menubtntext" style={{cursor: "pointer"}} className={`uk-flex uk-flex-middle uk-flex-center menuBtn2 ${activeMenu2 === 'menubtn2' ? 'active2' : ''}`}onClick={() => handleClick2('menubtn2')}>Ipsum</div>
+                <div id="menubtntext" style={{cursor: "pointer"}} className={`uk-flex uk-flex-middle uk-flex-center menuBtn2 ${activeMenu2 === 'menubtn2' ? 'active2' : ''}`}onClick={() => handleClick2('menubtn2')}>Aether</div>
               </div>
               <div className="uk-width-1-3 uk-flex uk-flex-middle uk-flex-center">
-                <div id="menubtntext" style={{cursor: "pointer"}} className={`uk-flex uk-flex-middle uk-flex-center menuBtn2 ${activeMenu2 === 'menubtn3' ? 'active2' : ''}`}onClick={() => handleClick2('menubtn3')}>Dolor</div>
+                <div id="menubtntext" style={{cursor: "pointer"}} className={`uk-flex uk-flex-middle uk-flex-center menuBtn2 ${activeMenu2 === 'menubtn3' ? 'active2' : ''}`}onClick={() => handleClick2('menubtn3')}>Elder</div>
               </div>
             </div>
         </div>
@@ -192,11 +200,13 @@ function App() {
         <div className="uk-flex uk-flex-middle uk-flex-center">
           <div id='lastblock' className="uk-flex">
             <div className="uk-width-1-2 uk-flex uk-flex-middle uk-flex-center">
-              <div id='imagecarre'></div>
+              <div id='imagecarre'>
+                <img id='imagecarre' className='uk-object-cover' src={world} />
+              </div>
             </div>
             <div className="uk-width-1-2 uk-flex uk-flex-middle ">
               <div className="blocktext" style={{display: `${activeMenu2 === 'menubtn1' ? 'block ' : 'none'}`}}> 
-                <div id='titre3'>Lorem</div>
+                <div id='titre3'>Ruben</div>
                 <p id="text1">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br></br>
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br></br>
@@ -208,19 +218,18 @@ function App() {
                 </p>
               </div>
               <div style={{display: `${activeMenu2 === 'menubtn2' ? 'block ' : 'none'}`}}> 
-                <div className="blocktext" id='titre3'>Ipsum</div>
+                <div className="blocktext" id='titre3'>Aether</div>
                 <p id="text1">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br></br>
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br></br>
-                  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea<br></br>
-                  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate<br></br>
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat<br></br>
-                  cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est<br></br>
-                  laborum
+                Dans un lointain désert, un héros courageux était connu pour sa bravoure<br></br>
+                et son esprit aventureux. Un jour, il reçut une mystérieuse lettre provenant<br></br>
+                du village voisin. La lettre disait qu’un terrible boss se cachait dans les<br></br>
+                profondeurs du désert, un scorpion géant redoutable nommé Veldra.<br></br>
+                <br></br>
+                Combattra t-il le puissant scopion géant avant qu’il ne soit trop tard ?
                 </p>
               </div>
               <div style={{display: `${activeMenu2 === 'menubtn3' ? 'block ' : 'none'}`}}> 
-                <div className="blocktext" id='titre3'>Dolor</div>
+                <div className="blocktext" id='titre3'>Elder</div>
                 <p id="text1">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br></br>
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br></br>
@@ -234,6 +243,9 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <img src={footer}  className="fullscreen" />
       </div>
     </div>
   );

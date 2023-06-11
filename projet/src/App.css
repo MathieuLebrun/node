@@ -213,7 +213,8 @@ h1 {
 .cartebtn:hover{
   background: transparent linear-gradient(115deg, #DD2DEF 0%, var(--unnamed-color-ffffff) 100%) 0% 0% no-repeat padding-box;
   background: transparent linear-gradient(115deg, #DD2DEF 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
-  transition: all s ease-in-out!important;
+  transition: all 0.5s ease-in-out !important;
+  color :#FFFFFF !important;
 }
 
 .carte h2{
